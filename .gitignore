@@ -19,5 +19,8 @@
 *.tar.gz
 *.rar
 
+.idea/
+JAVA-8-9-10-11-12-13-14-15-16-17.iml
+
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*

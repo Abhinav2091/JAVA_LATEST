@@ -1,4 +1,4 @@
-package funtionalprogramming.bean;
+package com.modernjava.lambda.bean;
 
 import java.util.List;
 

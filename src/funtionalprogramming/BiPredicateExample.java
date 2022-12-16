@@ -1,7 +1,7 @@
 package funtionalprogramming;
 
-import funtionalprogramming.bean.Instructor;
-import funtionalprogramming.bean.Instructors;
+import bean.Instructor;
+import bean.Instructors;
 
 import java.util.List;
 import java.util.function.BiPredicate;

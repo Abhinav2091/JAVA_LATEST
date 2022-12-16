@@ -1,6 +1,4 @@
-package funtionalprogramming.bean;
-
-import funtionalprogramming.bean.Instructor;
+package com.modernjava.lambda.bean;
 
 import java.util.ArrayList;
 import java.util.Arrays;

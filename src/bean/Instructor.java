@@ -1,4 +1,4 @@
-package com.modernjava.lambda.bean;
+package bean;
 
 import java.util.List;
 

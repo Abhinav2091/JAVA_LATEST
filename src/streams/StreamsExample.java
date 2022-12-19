@@ -3,15 +3,14 @@ package streams;
  * streams can only be iterate once
  * <p>
  * streams will not get called until we have a terminal operation called
+ * <p>
+ *
  */
 
 import bean.Instructor;
 import bean.Instructors;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
-import java.util.function.BiPredicate;
+import java.util.*;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -41,5 +40,8 @@ public class StreamsExample {
         // streams.forEach(System.out::println);
 
 
+
+
     }
+
 }

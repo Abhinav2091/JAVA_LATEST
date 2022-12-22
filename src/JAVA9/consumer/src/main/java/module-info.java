@@ -1,0 +1,3 @@
+module consumer {
+    exports consumer;
+}

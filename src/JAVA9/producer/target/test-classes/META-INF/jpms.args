@@ -1,0 +1,4 @@
+--patch-module
+producer=_
+--add-reads
+producer=ALL-UNNAMED

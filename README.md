@@ -90,3 +90,12 @@ we can also add dependency using pom file we have to clean,package and install u
 producer and consumer module
 and add those dependency in client
 
+# JAVA 11
+
+Epsilon GC -->only allocate memory, doesn't clear the heap memory
+usefull for extremely short application where gc wil take time to run
+
+enable Epsilon GC use below steps
+edit run configuration
+add this value in VM Option tab:-XX:+UnlockExperimentalVMOptions -XX:+UseEpsilonGC -verbose:gc
+NOTE:if VM option is not available click modify option and add VM Option

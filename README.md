@@ -99,3 +99,9 @@ enable Epsilon GC use below steps
 edit run configuration
 add this value in VM Option tab:-XX:+UnlockExperimentalVMOptions -XX:+UseEpsilonGC -verbose:gc
 NOTE:if VM option is not available click modify option and add VM Option
+
+# JAVA 12
+
+although Switch expression is introduced in java 12 for some reason it was throwing
+compile time error in intellij.
+so have to download java 17 here.

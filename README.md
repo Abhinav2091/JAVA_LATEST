@@ -90,6 +90,15 @@ we can also add dependency using pom file we have to clean,package and install u
 producer and consumer module
 and add those dependency in client
 
+# JAVA 10
+
+Type Inference
+where compiler infers the value at run time
+can add final too
+cannot assign null
+var is not a key word
+best practice: variable name is good
+
 # JAVA 11
 
 Epsilon GC -->only allocate memory, doesn't clear the heap memory
@@ -105,3 +114,18 @@ NOTE:if VM option is not available click modify option and add VM Option
 although Switch expression is introduced in java 12 for some reason it was throwing
 compile time error in intellij.
 so have to download java 17 here.
+reason:coz it was preview in java 12 but released in java 14
+
+# JAVA 13
+
+yield method in Switch expression is introduced
+
+# JAVA 14
+
+null pointer exception is more readable with specific position where we have null pointer exception.
+
+Record somewhere similar to lombook with extra feature like
+compact constructor
+will override equals and hascode method for us
+
+NOTE: it oppose data hiding

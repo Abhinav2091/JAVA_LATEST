@@ -8,6 +8,7 @@ public class MultipleInhertanceWithDefaultExample implements InterfaceA, Interfa
         //if we provide implemntation in this class it will cal that  first
         mih.displayB();
         mih.displayC();
+
     }
 
     public void displayB() {
